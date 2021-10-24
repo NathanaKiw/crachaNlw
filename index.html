@@ -1,0 +1,80 @@
+<!--
+  HTML
+  Hypertext- Hiper texto
+  É um texto com links
+
+  Markup -Marcação
+  Tags
+
+  Language
+  Regras de uma linguagem
+-->
+<!DOCTYPE html>
+<html>
+  <!--tag raiz/ tag pai-->
+  <head>
+    <title>Nathana Kiwia - Dowhile 2021</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!--tag filho / irmão -->
+
+  <body>
+    <main>
+      <div class="container">
+        <!--div cria containers(caixas onde colocamos conteúdo), classificamos com class-->
+        <div class="avatar">
+          <span>
+            <img src="images/build.svg" alt="Selo Rocketseat" />
+          </span>
+
+          <img
+            id="userImage"
+            src="https://lorempixel.com/185/185/people/"
+            alt="Foto pessoal"
+          />
+        </div>
+
+        <h1 id="userName">Mayk Brito</h1>
+        <!--título -->
+        <a id="userLink" href="https://github.com/maykbrito" target="_blank">
+          <img src="images/github.svg" alt="ícone github" />
+          <span id="userLogin">maykbrito</span>
+        </a>
+
+        <!--hiperlink -->
+        <p id="userBio">A developer in development.</p>
+
+        <ul id="socialLink">
+          <li class="youtube">
+            <a href="https://www.youtube.com/channel/maykbrito" target="_blank">
+              <img src="images/youtube.svg" alt="ícone youtube" />
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="https://www.instagram.com/maykbrito/" target="_blank">
+              <img src="images/instagram.svg" alt="ícone instagram" />
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="https://www.facebook.com/maykbrito/" target="_blank">
+              <img src="images/facebook.svg" alt="ícone facebook" />
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="https://twitter.com/maykbrito" target="_blank">
+              <img src="images/twitter.svg" alt="ícone twitter" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+  <!--tag filho / irmão -->
+</html>
